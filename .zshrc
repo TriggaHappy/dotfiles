@@ -83,6 +83,13 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# alias cd="z"
+# alias ls="eza --git --icons=auto -a --color=always"
+alias pacu="sudo pacman -Syu"
+alias pacs="sudo pacman -S"
+alias ta="tmux attach -t"
+alias lg='lazygit'
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
