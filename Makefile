@@ -21,3 +21,8 @@ confirm:
 .PHONY: stow
 stow: confirm
 	@stow --adopt .
+
+.PHONY: install 
+install: 
+	@sudo pacman -S tmux yay 
+
